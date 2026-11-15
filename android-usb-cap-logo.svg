@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Minimalist Monochrome Vector Logo for USB Cap Printing (Android + USB Concept) -->
+  <g fill="#000000" stroke="none">
+    <!-- Outer clean circular badge border (optional for printing, strong silhouette) -->
+    <path d="M256,28 C130.08,28 28,130.08 28,256 C28,381.92 130.08,484 256,484 C381.92,484 484,381.92 484,256 C484,130.08 381.92,28 256,28 Z M256,48 C370.88,48 464,141.12 464,256 C464,370.88 370.88,464 256,464 C141.12,464 48,370.88 48,256 C48,141.12 141.12,48 256,48 Z"/>
+
+    <!-- Android Robot Head Silhouette -->
+    <path d="M160,218 C160,164 203,122 256,122 C309,122 352,164 352,218 L160,218 Z"/>
+    
+    <!-- Android Left Antenna -->
+    <rect x="186" y="88" width="12" height="44" rx="6" transform="rotate(-28 192 110)"/>
+    
+    <!-- Android Right Antenna -->
+    <rect x="314" y="88" width="12" height="44" rx="6" transform="rotate(28 320 110)"/>
+    
+    <!-- Android Eyes (Cutout white circles) -->
+    <circle cx="215" cy="176" r="11" fill="#FFFFFF"/>
+    <circle cx="297" cy="176" r="11" fill="#FFFFFF"/>
+
+    <!-- USB Connector Body & Trident Integration below head -->
+    <!-- USB Type-A / Type-C stylized body -->
+    <rect x="208" y="232" width="96" height="68" rx="10"/>
+    <!-- Inner white ports for crisp print contrast -->
+    <rect x="228" y="250" width="18" height="22" rx="3" fill="#FFFFFF"/>
+    <rect x="266" y="250" width="18" height="22" rx="3" fill="#FFFFFF"/>
+
+    <!-- USB Cable Stem going down -->
+    <rect x="246" y="298" width="20" height="84"/>
+
+    <!-- Left USB Branch (Circle node) -->
+    <path d="M246,356 L192,324 L192,284" fill="none" stroke="#000000" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="192" cy="276" r="16"/>
+
+    <!-- Right USB Branch (Square node) -->
+    <path d="M266,342 L320,310 L320,274" fill="none" stroke="#000000" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="305" y="254" width="30" height="30" rx="4"/>
+
+    <!-- Bottom USB Arrowhead / Plug Base -->
+    <polygon points="256,416 232,378 280,378"/>
+  </g>
+</svg>
